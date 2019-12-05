@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - plane
+  - Milk
+  - Chair
+  - Pen
+  - Umbrella
+  - Duck
+  - Monkey
   layers:
   - Default
   - TransparentFX
