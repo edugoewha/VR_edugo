@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - plane
+  - tigerword
+  - spoonword
+  - carword
+  - bananaword
+  - fishword
+  - elephantword
   layers:
   - Default
   - TransparentFX
