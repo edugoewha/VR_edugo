@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - plane
+  - waterword
+  - ropeword
+  - grassword
+  - tangerineword
+  - rockword
+  - fireword
   layers:
   - Default
   - TransparentFX
