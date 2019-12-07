@@ -10,6 +10,8 @@ TagManager:
   - Milkword
   - Penword
   - Umbrellaword
+  - status
+  - ox
   layers:
   - Default
   - TransparentFX
