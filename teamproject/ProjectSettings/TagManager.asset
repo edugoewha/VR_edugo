@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Chairword
+  - Duckword
+  - Monkeyword
+  - Milkword
+  - Penword
+  - Umbrellaword
   layers:
   - Default
   - TransparentFX
