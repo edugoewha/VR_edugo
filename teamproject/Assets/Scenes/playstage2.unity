@@ -8149,9 +8149,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 996833487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd1c1f16f759648feac35fdad21ddc8b, type: 3}
+  m_Script: {fileID: 11500000, guid: a1357ad79669d4feab36399b76ed3d2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bananaword: {fileID: 1984584609}
+  tigerword: {fileID: 1991770832}
+  spoonword: {fileID: 947027639}
+  carword: {fileID: 1159331228}
+  fishword: {fileID: 1489822586}
+  elephantword: {fileID: 1789348235}
+  myHand: {fileID: 2120930095}
+  handPower: 0
 --- !u!114 &996833489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8234,14 +8242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d4466111e7aa4579b90a977e3b25cac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bananaword: {fileID: 1984584609}
-  tigerword: {fileID: 1991770832}
-  spoonword: {fileID: 947027639}
-  carword: {fileID: 1159331228}
-  fishword: {fileID: 1489822586}
-  elephantword: {fileID: 1789348235}
-  myHand: {fileID: 2120930095}
-  handPower: 20
 --- !u!1 &1006631620
 GameObject:
   m_ObjectHideFlags: 0
@@ -14434,7 +14434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f7bdd29163e54e6c9e437bed392aa40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SettingPanel: {fileID: 480075360}
+  SettingPanel: {fileID: 0}
 --- !u!114 &1958274751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14447,7 +14447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 850de7246b76e4cbcbb9b5f4892dffed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PausePanel: {fileID: 1467620720}
+  PausePanel: {fileID: 0}
 --- !u!4 &1958274752
 Transform:
   m_ObjectHideFlags: 0

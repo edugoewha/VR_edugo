@@ -12,6 +12,19 @@ TagManager:
   - Umbrellaword
   - status
   - ox
+  - elephantword
+  - spoonword
+  - fishword
+  - bananaword
+  - tigerword
+  - carword
+  - grassword
+  - fireword
+  - waterword
+  - plane
+  - rockword
+  - tangerineword
+  - ropeword
   layers:
   - Default
   - TransparentFX
