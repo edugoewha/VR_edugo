@@ -23,6 +23,7 @@ public class grab : MonoBehaviour
     public GameObject Plane5;
     public GameObject Plane6;
     public GameObject myHand;
+    public GameObject firefire;
     Vector3 waterwordPos;
     Vector3 ropewordPos;
     Vector3 grasswordPos;
@@ -51,6 +52,7 @@ public class grab : MonoBehaviour
         newText = GetComponentsInChildren<Text>();
         
         count = 6;
+        firefire.SetActive(false);
 
         this.audio = this.gameObject.AddComponent<AudioSource>();
         this.audio.clip = this.jumpSound;
@@ -65,7 +67,7 @@ public class grab : MonoBehaviour
         {
             Invoke("DisableText", 1f);
             this.audio.Play();
-            newText[0].text = "원숭이에게 필요한 물건을 가져다 주세요";
+            newText[0].text = "불을 끄기 위해 필요한 물건을 불에 가져다주세요";
             Destroy(Board);
             Destroy(Plane1);
             Destroy(Plane2);
@@ -73,6 +75,7 @@ public class grab : MonoBehaviour
             Destroy(Plane4);
             Destroy(Plane5);
             Destroy(Plane6);
+            firefire.SetActive(true);
             count--;
             
             //Board.SetActive(false);
@@ -98,7 +101,7 @@ public class grab : MonoBehaviour
             
                 if(hit.collider.tag == "grassword"){
                     grassword.transform.SetParent(myHand.transform);
-                    grassword.transform.localPosition = new Vector3(3.0f, 0.8f, 2.2f);
+                    grassword.transform.localPosition = new Vector3(1.5f, 0.8f, 1.0f);
                     inHand1 = true;
                 }
                 
@@ -116,19 +119,19 @@ public class grab : MonoBehaviour
                 
                 if(hit.collider.tag == "tangerineword"){
                     tangerineword.transform.SetParent(myHand.transform);
-                    tangerineword.transform.localPosition = new Vector3(0, 0.8f, 0);
+                    tangerineword.transform.localPosition = new Vector3(1.5f, 1.2f, 0);
                     inHand4 = true;
                 }
                 
                 if(hit.collider.tag == "rockword"){
                     rockword.transform.SetParent(myHand.transform);
-                    rockword.transform.localPosition = new Vector3(0, 0.8f, 0);
+                    rockword.transform.localPosition = new Vector3(1.5f, 1.0f, 0);
                     inHand5 = true;
                 }
                 
                 if(hit.collider.tag == "fireword"){
                     fireword.transform.SetParent(myHand.transform);
-                    fireword.transform.localPosition = new Vector3(0, 0.8f, 0);
+                    fireword.transform.localPosition = new Vector3(1.5f, 1.2f, 0);
                     inHand6 = true;
                 }
             }
